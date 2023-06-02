@@ -14,10 +14,9 @@ function AppartmentList(params) {
 
   return (
     <div>
-      {/* {appartmentArray.map((appartment) => {
-        return <div>appartment.image</div>;
-      })} */}
-      {appartmentArray}
+      {appartmentArray.map((appartment) => {
+        return <div>{appartment.props.image}</div>;
+      })}
     </div>
   );
 }
