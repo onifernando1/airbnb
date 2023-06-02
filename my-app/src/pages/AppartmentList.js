@@ -3,10 +3,21 @@ import Appartment from "./Appartment";
 import { useState } from "react";
 
 function AppartmentList(params) {
-  const { appartmentArray, setAppartmentArray } = useState([]);
+  const [appartmentArray, setAppartmentArray] = useState([
+    <Appartment image="house1" />,
+    <Appartment image="house1" />,
+    <Appartment image="house1" />,
+    <Appartment image="house1" />,
+  ]);
+
+  console.log(appartmentArray);
+
   return (
     <div>
-      <Appartment image="house1" />
+      {/* {appartmentArray.map((appartment) => {
+        return <div>appartment.image</div>;
+      })} */}
+      {appartmentArray}
     </div>
   );
 }
