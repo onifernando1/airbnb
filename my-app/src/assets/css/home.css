@@ -1,0 +1,14 @@
+.appartmentContainer {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: ;
+}
+
+.individualAppartment {
+  height: 200px;
+}
+
+.individualAppartment img {
+  height: 100px;
+}

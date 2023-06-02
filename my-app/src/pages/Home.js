@@ -2,6 +2,7 @@ import React from "react";
 import Appartment from "./Appartment";
 import AppartmentList from "./AppartmentList";
 import { useState } from "react";
+import "../assets/css/home.css";
 
 function Home() {
   const [appartmentArray, setAppartmentArray] = useState([
