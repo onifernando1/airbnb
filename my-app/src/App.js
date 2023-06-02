@@ -1,13 +1,16 @@
 import React from "react";
-import { Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Appartment from "./pages/Appartment";
+import Basket from "./pages/Basket";
 
 function App() {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/appartment" element={<Appartment />} />
+      <Route path="/basket" element={<Basket />} />
+    </Routes>
   );
 }
 
