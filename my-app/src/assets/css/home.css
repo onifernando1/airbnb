@@ -1,16 +1,18 @@
 .appartmentContainer {
-  background-color: red;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: ;
-  gap: 30px;
+  /* background-color: red; */
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  height: 700px;
 }
 
 .individualAppartment {
-  height: 200px;
-  width: 100%;
-  min-width: 200px;
-  background-color: blue;
+  height: 19em;
+  width: 17em;
+  /* min-width: 200px; */
+  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,7 +20,10 @@
 }
 
 .individualAppartment img {
-  height: 100px;
+  height: auto;
+  width: auto;
+  max-width: 16em;
+  border-radius: 9px;
 }
 
 .appartmentInfo {

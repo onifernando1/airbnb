@@ -15,10 +15,12 @@ function Home() {
     <Appartment image="house2" title="House 2" />,
     <Appartment image="house3" title="House 3" />,
     <Appartment image="house4" title="House 4" />,
+    <Appartment image="house3" title="House 3" />,
+    // <Appartment image="house4" title="House 4" />,
   ]);
 
   return (
-    <div>
+    <>
       <div className="appartmentContainer">
         {appartmentArray.map((appartment) => {
           return (
@@ -38,7 +40,7 @@ function Home() {
           );
         })}
       </div>
-    </div>
+    </>
   );
 }
 
