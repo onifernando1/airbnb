@@ -3,12 +3,25 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: ;
+  gap: 30px;
 }
 
 .individualAppartment {
   height: 200px;
+  width: 100%;
+  min-width: 200px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .individualAppartment img {
   height: 100px;
+}
+
+.appartmentInfo {
+  /* display: flex;
+  align-items: flex-start; */
 }

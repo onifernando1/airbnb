@@ -6,7 +6,12 @@ import "../assets/css/home.css";
 
 function Home() {
   const [appartmentArray, setAppartmentArray] = useState([
-    <Appartment image="house1" title="House 1" />,
+    <Appartment
+      image="house1"
+      title="House 1"
+      price="34"
+      location="Milan, Italy"
+    />,
     <Appartment image="house2" title="House 2" />,
     <Appartment image="house3" title="House 3" />,
     <Appartment image="house4" title="House 4" />,
@@ -18,11 +23,17 @@ function Home() {
         {appartmentArray.map((appartment) => {
           return (
             <div className="individualAppartment">
-              <img
-                src={require(`../assets/images/${appartment.props.image}.jpg`)}
-              ></img>
-              <div>{appartment.props.image}</div>
-              <div>{appartment.props.image}</div>
+              <div>
+                <img
+                  src={require(`../assets/images/${appartment.props.image}.jpg`)}
+                ></img>
+              </div>
+              <div className="appartmentInfo">
+                <div>{appartment.props.location}</div>
+                <div>4.9/5</div>
+                <div>21 Aug - 25 sep</div>
+                <div>£{appartment.props.price}/night</div>
+              </div>
             </div>
           );
         })}
