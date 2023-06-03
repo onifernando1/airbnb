@@ -20,10 +20,11 @@
 }
 
 .individualAppartment img {
-  height: auto;
-  width: auto;
+  height: 15em;
+  width: 15em;
   max-width: 16em;
   border-radius: 9px;
+  object-fit: cover;
 }
 
 .appartmentInfo {
