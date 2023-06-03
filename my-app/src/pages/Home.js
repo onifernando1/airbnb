@@ -12,12 +12,66 @@ function Home() {
       price="34"
       location="Milan, Italy"
     />,
-    <Appartment image="house2" title="House 2" />,
-    <Appartment image="house3" title="House 3" />,
-    <Appartment image="house4" title="House 4" />,
-    <Appartment image="house3" title="House 3" />,
-    <Appartment image="house3" title="House 3" />,
-    <Appartment image="house3" title="House 3" />,
+    <Appartment
+      image="house1"
+      title="House 1"
+      price="34"
+      location="Milan, Italy"
+    />,
+    <Appartment
+      image="house1"
+      title="House 1"
+      price="34"
+      location="Milan, Italy"
+    />,
+    <Appartment
+      image="house1"
+      title="House 1"
+      price="34"
+      location="Milan, Italy"
+    />,
+    <Appartment
+      image="house1"
+      title="House 1"
+      price="34"
+      location="Milan, Italy"
+    />,
+    <Appartment
+      image="house1"
+      title="House 1"
+      price="34"
+      location="Milan, Italy"
+    />,
+    <Appartment
+      image="house1"
+      title="House 1"
+      price="34"
+      location="Milan, Italy"
+    />,
+    <Appartment
+      image="house1"
+      title="House 1"
+      price="34"
+      location="Milan, Italy"
+    />,
+    <Appartment
+      image="house1"
+      title="House 1"
+      price="34"
+      location="Milan, Italy"
+    />,
+    <Appartment
+      image="house1"
+      title="House 1"
+      price="34"
+      location="Milan, Italy"
+    />,
+    <Appartment
+      image="house1"
+      title="House 1"
+      price="34"
+      location="Milan, Italy"
+    />,
 
     // <Appartment image="house4" title="House 4" />,
   ]);
