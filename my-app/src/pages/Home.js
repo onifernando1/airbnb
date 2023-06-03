@@ -25,13 +25,13 @@ function Home() {
         {appartmentArray.map((appartment) => {
           return (
             <div className="individualAppartment">
-              <div>
+              <div className="image-container">
                 <img
                   src={require(`../assets/images/${appartment.props.image}.jpg`)}
                 ></img>
               </div>
               <div className="appartmentInfo">
-                <div>{appartment.props.location}</div>
+                <div className="location">{appartment.props.location}</div>
                 <div>4.9/5</div>
                 <div>21 Aug - 25 sep</div>
                 <div>£{appartment.props.price}/night</div>

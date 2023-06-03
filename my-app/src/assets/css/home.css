@@ -4,7 +4,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   display: flex;
   justify-content: space-evenly;
-  gap: 5px;
+  gap: 15px;
   height: 700px;
 }
 
@@ -20,14 +20,19 @@
 }
 
 .individualAppartment img {
-  height: 15em;
-  width: 15em;
-  max-width: 16em;
+  height: 100%;
+  /* background-size: cover; */
+  margin-left: -130px;
   border-radius: 9px;
-  object-fit: cover;
 }
 
-.appartmentInfo {
-  /* display: flex;
-  align-items: flex-start; */
+.location {
+  font-weight: bold;
+}
+
+.image-container {
+  overflow: hidden;
+  height: 15em;
+  width: 15em;
+  border-radius: 9px;
 }
