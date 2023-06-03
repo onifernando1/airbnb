@@ -1,18 +1,26 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import logo from "../assets/images/logo.png";
+import "../assets/css/header.css";
 
 function Header() {
   return (
     <div>
       <div>
-        <img src={logo} />
+        <Link to="/">
+          <img src={logo} />
+        </Link>
       </div>
-      <nav>
+      <div className="searchbar">
+        <div>Anywhere </div>
+        <div>|</div>
+        <div>Any week </div>
+        <div>|</div>
+        <div>Add guests</div>
+        <div>?</div>
+      </div>
+      {/* <nav>
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
           <li>
             <Link to="/appartmentList">Appartment List</Link>
           </li>
@@ -23,7 +31,7 @@ function Header() {
             <Link to="/basket">Basket</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </div>
   );
 }
