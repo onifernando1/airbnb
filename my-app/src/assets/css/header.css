@@ -18,3 +18,10 @@
 .searchbar div:nth-child(5) {
   color: #5d5d5d;
 }
+
+.search {
+  background-color: rgb(92, 212, 255);
+  height: 3rem;
+  width: 4rem;
+  border-radius: 50px;
+}

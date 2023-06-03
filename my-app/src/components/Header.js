@@ -2,6 +2,7 @@ import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import "../assets/css/header.css";
+import search from "../assets/images/search.png";
 
 function Header() {
   return (
@@ -17,7 +18,9 @@ function Header() {
         <div>Any week </div>
         <div>|</div>
         <div>Add guests</div>
-        <div>?</div>
+        <div className="search">
+          <img src={search}></img>
+        </div>
       </div>
       {/* <nav>
         <ul>
