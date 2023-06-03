@@ -16,6 +16,9 @@ function Home() {
     <Appartment image="house3" title="House 3" />,
     <Appartment image="house4" title="House 4" />,
     <Appartment image="house3" title="House 3" />,
+    <Appartment image="house3" title="House 3" />,
+    <Appartment image="house3" title="House 3" />,
+
     // <Appartment image="house4" title="House 4" />,
   ]);
 
@@ -32,12 +35,16 @@ function Home() {
               </div>
               <div className="appartment-info-container">
                 <div className="appartment-info">
-                  <div className="location">{appartment.props.location}</div>
+                  <div className="location black">
+                    {appartment.props.location}
+                  </div>
                   <div>21 Aug - 25 sep</div>
-                  <div>£{appartment.props.price}/night</div>
+                  <div className="price black">
+                    £{appartment.props.price}/night
+                  </div>
                 </div>
                 <div className="rating-container">
-                  <div className="rating">&#9733;4.9/5</div>
+                  <div className="rating black">&#9733;4.9/5</div>
                 </div>
               </div>
             </div>

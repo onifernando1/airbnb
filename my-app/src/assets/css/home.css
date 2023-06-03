@@ -4,10 +4,10 @@
 }
 
 .appartmentContainer {
-  /* background-color: red; */
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 15px;
   height: 700px;
@@ -47,10 +47,14 @@
 
 .appartment-info-container {
   display: flex;
-  width: 15em;
+  width: 14em;
   /* background-color: red; */
   justify-content: space-between;
   padding: 5px;
+}
+
+.appartment-info-container div {
+  margin-bottom: 0.2em;
 }
 
 .appartment-info {
@@ -58,6 +62,10 @@
   color: #717171;
 }
 
-.appartment-info div:first-child {
+.black {
   color: black;
+}
+
+.price {
+  text-decoration: underline;
 }
