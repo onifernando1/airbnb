@@ -24,7 +24,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="about">
         <div>Oni your home</div>
         <div>O</div>
         <div>Profile</div>
