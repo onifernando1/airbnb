@@ -30,11 +30,15 @@ function Home() {
                   src={require(`../assets/images/${appartment.props.image}.jpg`)}
                 ></img>
               </div>
-              <div className="appartmentInfo">
-                <div className="location">{appartment.props.location}</div>
-                <div>4.9/5</div>
-                <div>21 Aug - 25 sep</div>
-                <div>£{appartment.props.price}/night</div>
+              <div className="appartment-info-container">
+                <div className="appartment-info">
+                  <div className="location">{appartment.props.location}</div>
+                  <div>21 Aug - 25 sep</div>
+                  <div>£{appartment.props.price}/night</div>
+                </div>
+                <div className="rating-container">
+                  <div className="rating">&#9733;4.9/5</div>
+                </div>
               </div>
             </div>
           );
