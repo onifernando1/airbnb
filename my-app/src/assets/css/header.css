@@ -38,6 +38,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  height: 5rem;
+
   /* display: grid;
   grid-template-columns: 1fr 4fr 4fr; */
 }
@@ -63,4 +65,12 @@
 
 .about {
   margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about div:first-child {
+  font-weight: bold;
 }
