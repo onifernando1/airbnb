@@ -15,60 +15,70 @@ function Home() {
       location="Milan, Italy"
     />,
     <Appartment
+      id="2"
       image="house1"
       title="House 1"
       price="34"
       location="Milan, Italy"
     />,
     <Appartment
+      id="3"
       image="house1"
       title="House 1"
       price="34"
       location="Milan, Italy"
     />,
     <Appartment
+      id="4"
       image="house1"
       title="House 1"
       price="34"
       location="Milan, Italy"
     />,
     <Appartment
+      id="5"
       image="house1"
       title="House 1"
       price="34"
       location="Milan, Italy"
     />,
     <Appartment
+      id="6"
       image="house1"
       title="House 1"
       price="34"
       location="Milan, Italy"
     />,
     <Appartment
+      id="7"
       image="house1"
       title="House 1"
       price="34"
       location="Milan, Italy"
     />,
     <Appartment
+      id="8"
       image="house1"
       title="House 1"
       price="34"
       location="Milan, Italy"
     />,
     <Appartment
+      id="9"
       image="house1"
       title="House 1"
       price="34"
       location="Milan, Italy"
     />,
     <Appartment
+      id="10"
       image="house1"
       title="House 1"
       price="34"
       location="Milan, Italy"
     />,
     <Appartment
+      id="11"
       image="house1"
       title="House 1"
       price="34"
@@ -84,7 +94,9 @@ function Home() {
         {appartmentArray.map((appartment) => {
           return (
             <div>
-              <Link to={`/appartment/${appartment.props.id}`}>
+              <Link
+                to={`/appartment/${appartment.props.id}/${appartment.props.image}/${appartment.props.title}/${appartment.props.price}/${appartment.props.location}`}
+              >
                 <div className="individualAppartment">
                   <div className="image-container">
                     <img
