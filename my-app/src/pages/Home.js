@@ -108,7 +108,7 @@ function Home() {
                       <div className="location black">
                         {appartment.props.location}
                       </div>
-                      <div>21 Aug - 25 sep</div>
+                      <div>21 Aug - 25 aug</div>
                       <div className="price black">
                         £{appartment.props.price}/night
                       </div>
