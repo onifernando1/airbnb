@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Appartment from "./Appartment";
 import AppartmentList from "./AppartmentList";
 import { useState } from "react";
@@ -7,6 +8,7 @@ import "../assets/css/home.css";
 function Home() {
   const [appartmentArray, setAppartmentArray] = useState([
     <Appartment
+      id="1"
       image="house1"
       title="House 1"
       price="34"
@@ -82,6 +84,7 @@ function Home() {
         {appartmentArray.map((appartment) => {
           return (
             <div className="individualAppartment">
+              <div>Temporary</div>
               <div className="image-container">
                 <img
                   src={require(`../assets/images/${appartment.props.image}.jpg`)}
